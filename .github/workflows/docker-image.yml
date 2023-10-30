@@ -29,8 +29,8 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t mateoc1297/docker-graphql:0.0.2 .
+        docker build -t mateoc1297/docker-graphql:0.0.1 .
 
     - name: Push Docker Image
       run: |
-        docker push mateoc1297/docker-graphql:0.0.2
+        docker push mateoc1297/docker-graphql:0.0.1
