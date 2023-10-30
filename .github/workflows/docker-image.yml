@@ -33,4 +33,4 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push mateoc1297/docker-graphql:0.0.2 .
+        docker push mateoc1297/docker-graphql:0.0.2
